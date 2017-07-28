@@ -19,30 +19,3 @@ dependencies {
 	compile 'javax.servlet:jstl:1.2'
 	
 }
-
-// Embeded Jetty for testing
-/*
-jettyRun{
-	contextPath = "spring4"
-	httpPort = 8080
-}
-
-jettyRunWar{
-	contextPath = "spring4"
-	httpPort = 8080
-}
-
-//For Eclipse IDE only
-eclipse {
-
-  wtp {
-    component {
-      
-      //define context path, default to project folder name
-      contextPath = 'spring4'
-      
-    }
-    
-  }
-}
-*/
